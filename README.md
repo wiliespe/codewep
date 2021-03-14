@@ -49,5 +49,4 @@ Sitio: https://codewep.com
 ## Agradecimientos 🎁
 
     * Gracias por visitar mi proyecto, es para mi un honor compartir y demostrar mis habilidades con otras personas.🤓
-
     * Puedes comentar que te ha parecido el proyecto o si tienes una sugerencia, el feedback es bienvenido.📢
