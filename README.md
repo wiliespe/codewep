@@ -1,46 +1,51 @@
-CODEWEP Tech Solutions.
+## CODEWEP Tech Solutions.
 
 
-Bienvenido! 👋
+## Bienvenido! 👋
 Este proyecto es la creación del sitio web CODEWEP donde doy a conocer los servicios desarrollo web que brindo.
 
-Características 📄
+## Características 📄
 
-Sitio realizado con la metodología "Mobile First".
-Sitio adaptable a diferentes tamaños de pantalla (responsive web design).
-Aplicación de la metodología BEM (Block, Element, Modifier).
-Los estilos están definidos en archivos .scss que posteriormente son compilados a CSS y minificados por medio de la herramienta Gulp.
-Los scripts son compilados y minificados por medio de la herrienta Gulp.
+* Sitio realizado con la metodología "Mobile First".
+* Sitio adaptable a diferentes tamaños de pantalla (responsive web design).
+* Aplicación de la metodología BEM (Block, Element, Modifier).
+* Los estilos están definidos en archivos .scss que posteriormente son compilados a CSS y minificados por medio de la herramienta Gulp.
+* Los scripts son compilados y minificados por medio de la herrienta Gulp.
 Mejora en el performance del sitio gracias al uso de imagenes.
 
 
-Despliegue 📦
+## Despliegue 📦
 
-Te invito a conocer el sitio desplegado en el siguiente enlace:
+### Te invito a conocer el sitio desplegado en el siguiente enlace:
 
 Sitio: https://codewep.com
 
-Construido con 🛠️
+## Construido con 🛠️
 
-Para la creación del sitio se usaron las siguientes tecnologías y herramientas:
+### Para la creación del sitio se usaron las siguientes tecnologías y herramientas:
 
-Tecnologías:
+* Tecnologías:
 
-Git HTML5 CSS3 SASS JavaScript Gulp
+    * Git 
+    * HTML5 
+    * CSS3 
+    * SASS 
+    * JavaScript 
+    * Gulp
 
-Herramientas (Gratis):
+* Herramientas (Gratis):
 
-Visual Studio Code --> Editor de texto.
+    * Visual Studio Code --> Editor de texto.
 
-Responsively App --> Visualizar el sitio en distintos tamaños de pantalla.
+    * Responsively App --> Visualizar el sitio en distintos tamaños de pantalla.
 
-Autor (es) ✒️
+## Autor (es) ✒️
 
 Este sitio fue realizado por:
 
-Wiliespe | Wilian Peña
+    * Wiliespe | Wilian Peña
 
 Agradecimientos 🎁
 
-Gracias por visitar mi proyecto, es para mi un honor compartir y demostrar mis habilidades con otras personas.🤓
-Puedes comentar que te ha parecido el proyecto o si tienes una sugerencia, el feedback es bienvenido.📢
+    * Gracias por visitar mi proyecto, es para mi un honor compartir y demostrar mis habilidades con otras personas.🤓
+    * Puedes comentar que te ha parecido el proyecto o si tienes una sugerencia, el feedback es bienvenido.📢
