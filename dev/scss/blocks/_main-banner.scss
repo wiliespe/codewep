@@ -1,0 +1,87 @@
+.main-banner {
+    position: relative;
+    height: 100vh;
+    background: url(../assets/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+} 
+
+.table-display {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.banner-contain h1 {
+    font-size: 40px;
+    color: var(--color-text-principal);
+    margin-bottom: 1rem;
+}
+
+.banner-contain p {
+    color: var(--color-text);
+    font-size: 18px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 30px;
+    font-size: 16px;
+    background: #020fbe;
+    color: var(--color-light);
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-top: 30px;
+    letter-spacing: 0.1em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}  
+
+@include mq(md) {
+
+    .banner-contain h1 {
+        font-size: 70px;
+    }
+
+    .banner-contain p {
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+
+    .button {
+        margin-top: 80px;
+    }
+}
+
+@include mq(lg) {
+    .main-banner::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        right: 20px;
+        background: url(../assets/img/stars1.gif);
+        background-repeat: no-repeat;
+        bottom: 120px;
+        background-size: 30%;
+        background-position: right bottom;
+        bottom: 120px;
+        z-index: -1;
+    }
+
+    .table-cell {
+        text-align: inherit;
+    }
+
+    .banner-contain p {
+        text-align: inherit;
+    }
+}

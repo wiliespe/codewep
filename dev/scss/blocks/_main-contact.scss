@@ -1,0 +1,56 @@
+
+.contact-area h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact-info-title{
+    & h3 {
+        margin-bottom: 5px;
+        letter-spacing: 0.5px;
+    }  
+}
+
+.contact-form {
+    margin-top: 15px;
+
+    & .form-control {
+        height: 45px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 35px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    & input:focus {
+        border-color: #020fbe ;
+    }
+
+    & textarea.form-control {
+        height: auto;
+
+    }
+
+    & .button {
+        margin-top: 0;
+        border: none;
+        outline: none;
+    }
+} 
+
+@include mq(md) {
+    .contact-area h2 {
+        font-size: 40px;
+    }
+
+    .contact-area {
+        background: url(../assets/img/contact-bg.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 47%;
+    }  
+}

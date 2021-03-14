@@ -1,0 +1,132 @@
+.portafolio-area {
+    background: url(../assets/img/team-bg-right.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.portafolio-title h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.portafolio span {
+    margin-bottom: 0;
+}
+
+.portfolio-list {
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+
+.nav-work {
+    padding: 5px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.nav-work label {
+    font-family: 'ubuntu', sans-serif;
+    display: block;
+    padding: 18px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.portafolio-item {
+    box-shadow: 0 6px 8px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.portafolio img {
+    width: 100%;
+}
+.portafolio-container figcaption {
+    padding: 30px 30px;
+    background: #fff;
+}
+
+figcaption p {
+    font-size: 20px;
+}
+
+figure {
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;;
+}
+
+.img-box {
+    position: relative;
+}
+
+.img-box__hover {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(244, 59, 93, 0.85);
+    transition: all 0.4s;
+}
+
+.img-box__hover:hover {
+    opacity: 1;
+}
+
+.img-box__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.img-box__content .fa {
+    color: #fff;
+    font-size: 30px;
+    margin: 10px;
+    transition: all 0.4s;
+}
+
+.img-box__content .fa:hover {
+    transform: translateY(-.5rem);
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+[value="TODOS"]:checked ~ .portafolio-container .portafolio-item:not[data-category]{
+    display: block;
+}
+
+[value="WEB"]:checked ~ .portafolio-container .portafolio-item:not([data-category~="WEB"]),[value="MARCA"]:checked ~ .portafolio-container .portafolio-item:not([data-category~="MARCA"]),[value="LOGO"]:checked ~ .portafolio-container .portafolio-item:not([data-category~="LOGO"]),[value="SEO"]:checked ~ .portafolio-container .portafolio-item:not([data-category~="SEO"]) {
+    display:none;
+    
+}
+
+[value="TODOS"]:checked ~ .nav-work [for="TODOS"],
+[value="WEB"]:checked ~ .nav-work [for="WEB"],
+[value="MARCA"]:checked ~ .nav-work [for="MARCA"],
+[value="LOGO"]:checked ~ .nav-work [for="LOGO"],
+[value="SEO"]:checked ~ .nav-work [for="SEO"]{
+    background: var(--third-color);;
+    color: #fff;
+    border-radius: 8px;
+}
+
+@include mq(md) {
+    .nav-work {
+        display: inline-flex;
+    }
+
+    .portafolio-title h2 {
+        font-size: 40px;
+    }
+}
+
+

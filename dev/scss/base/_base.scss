@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input:focus, button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.button:hover {
+    background-color: var(--third-color);
+    transition: all 0.5s;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #131C2B;
+
+}
+
+p {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: var(--color-text);
+    line-height: 25px;
+}
+
+.space-medium {
+    margin-top: 100px;
+} 
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/*-----------------------------------
+   DEVICE IOS PARALLAX 
+-------------------------------------*/
+
+.visible-android {
+    display:none;
+}
+.visible-ios {
+    display:none;
+}
+.on-device .visible-android, .on-device .visible-android {
+    display:inherit;
+}
+.device-ios .visible-android {
+    display:none !important;
+}
+.device-ios .hidden-ios {
+    display:none !important;
+}
+.device-android .hidden-android {
+    display:none !important;
+}
+.device-android .visible-ios {
+    display:none !important;
+}
+.device-ios .parallax {
+      background-attachment: scroll !important;
+}

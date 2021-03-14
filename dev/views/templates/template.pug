@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Codewep | Desarrollo Web | Donostia-San Sebastián
+        <meta name="author" content="Codewep.com">
+        <meta name="owner" content="Codewep Desarrollo Web">
+        <meta name="keywords" content="Páginas web, Diseño de páginas web, Desarrollo web, Sitios web, Donostia-San Sebastián">
+        <meta name="description" content="Desarrollador Web en Donostia-San Sebastián, Freenlance, Diseño de página web, Desarrollo de páginas web profesional economicas, Donostia, San Sebastian, España, Estrategia SEO, servicio de landing page">
+        <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.ico" />
+        <meta name="theme-color" content="#020fbe">
+        <meta property="og:url" content="https://www.codewep.com" />
+        <meta property="og:image:url" content="https://www.codewep.com/assets/img/logo.png" />
+        <meta property="og:image:width" content="200">
+        <meta property="og:image:height" content="200">
+        <meta property="og:title" content="Codewep | Desarrollo Web | Donostia-San Sebastián" />
+        <meta property="og:type" content="Codewep | Desarrollo Web | Donostia-San Sebastián" />
+        <meta property="og:site_name" content="Codewep Desarrollo Web" />
+        <meta property="og:description" content="Somos freelance nos dedicamos al desarrallo de sitios web para negocios y empresas que quieran despegar." />
+        <meta property="og:image" itemprop="image" content="https://www.codewep.com/assets/img/logo.png" />
+        <meta property="og:image:url" itemprop="image" content="https://www.codewep.com/assets/img/logo.png" />
+        <meta property="og:image:type" content="image/png" />
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&amp;display=swap" rel="stylesheet">
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+        link(rel="stylesheet", href="css/styles.css")
+        script(src="https://www.googletagmanager.com/gtag/js?id=UA-158615813-2")
+        script.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-158615813-2')
+    body
+        header#inicio.main-header
+            .container
+                .cabezera
+                    .main-logo
+                        a(href="http://www.codewep.com")
+                            img(src="assets/img/logo.png", alt="logotipo")
+                    .icono-menu#icono-menu
+                        #btn-menu.menu-on   
+                            span
+                            span
+                            span
+                    nav#mainMenu.main-menu
+                        ul
+                            li 
+                                a(href="#inicio").nav-link Inicio
+                            li 
+                                a(href="#nosotros").nav-link Nosotros
+                            li 
+                                a(href="#servicios").nav-link Servicios
+                            li 
+                                a(href="#planes").nav-link Planes
+                            li 
+                                a(href="#contacto").nav-link Contacto
+        main
+            section.main-banner
+             .container.table-display
+                .row.table-cell
+                    .col-md-12
+                        .banner-contain 
+                            h1 
+                                span Démosle vida 
+                                br
+                                span a tu proyecto juntos.  
+                            p Haz que tus ideas despeguen con nosotros.
+                            a(href="#servicios").button Ver Servicios
+                            a(href="#trabajos").button Ver Trabajos
+            section.about-area.space-medium#nosotros 
+                .container
+                    span.sub-title Sobre nosotros 
+                    .row
+                        .col-lg-7.col-md-12.about-image
+                            .about-image__rocket
+                                img(src="../assets/img/rocket.svg", alt="rocket-img")
+                        .col-lg-5.col-md-12.about-text 
+                            h2 Somos freelancer, nuestro objetivo es brindar una solución integral. 
+                            h4 Ayudamos a nuestros clientes a gestionar su marca, les construimos el futuro para tener un impacto real en su negocio.  
+                            p En la actualidad todo negocio o empresa debe tener un sitio web ya que nos permite estar visible en los buscadores y brinda credibilidad antes los potenciales clientes. Desde el 2017 brindamos servicio de diseño y desarrollo de sitios web, tiendas online, posicionamiento SEO, mantención web en San Sebastián, España. Lo mas importante para CODEWEP es la Satisfacción de nuestros clientes.
+                            a(href="#contacto").button Contáctanos
+            section.services-area.space-medium#servicios
+                .container  
+                        span.sub-title Servicios
+                        .row
+                            .col-lg-6.col-md-12.services-text
+                                h2 Ponemos a tu disposición varios tipos de servicios. 
+                                h4 ¿Que hacemos? websites a medida.
+                                p Realizamos proyectos tanto para pymes como para empresas. Hacemos sitios web autogestionables y totalmente adaptadas a dispositivos, todo ello acompañado de un diseño estupendo!!
+                                a(href="#trabajos").button Ver Trabajos
+                            .col-lg-6.col-md-12 
+                                .row
+                                    .col-lg-6.col-md-6
+                                        .icon-block.icon-block1
+                                            .icon-img
+                                                img(src="../assets/img/data.svg", alt="data-icon") 
+                                            .icon-info 
+                                                h3 Desarrollo Web
+                                                p Diseño y desarrollo de sitios web. Adaptadas a todos los dispositivos móviles.                        
+                                    .col-lg-6.col-md-6
+                                        .icon-block 
+                                            .icon-img
+                                                img(src="../assets/img/mobile-payment.svg", alt="mobile-icon") 
+                                            .icon-info
+                                                h3 Tienda Online
+                                                p Potencia tus ventas online a través de una tienda virtual autoadministrables sencilla.
+                                    .col-lg-6.col-md-6
+                                        .icon-block.icon-block1
+                                            .icon-img
+                                                img(src="../assets/img/search-engine-optimization.svg", alt="seo-icon")
+                                            .icon-info 
+                                                h3 Posicionamiento SEO
+                                                p Trabajamos el posicionamiento básico para optimizar y pontenciar su sitio web.  
+                                    .col-lg-6.col-md-6
+                                        .icon-block
+                                            .icon-img
+                                                img(src="../assets/img/optimize.svg", alt="web-icon") 
+                                            .icon-info 
+                                                h3 Mantención Web  
+                                                p Servicio de mantención web, creación de contenido, carga de productos e incorporación de mejoras. 
+            section.portafolio-area.space-medium#trabajos
+                .container
+                    .portafolio-title  
+                        span.sub-title Trabajos destacados
+                        h2 Nuestro impresionante portafolio 
+                    .row
+                        .container
+                            .col-md-12
+                                .portfolio-list
+                                    input(type="radio", id="TODOS", name="categories", value="TODOS" checked)
+                                    input(type="radio", id="WEB", name="categories", value="WEB")
+                                    input(type="radio", id="MARCA", name="categories", value="MARCA")
+                                    input(type="radio", id="LOGO", name="categories", value="LOGO")
+                                    input(type="radio", id="SEO", name="categories", value="SEO")
+                                    .nav-work
+                                        label(for="TODOS") Todos
+                                    
+                                        label(for="WEB") Sitio Web
+                                        
+                                        label(for="MARCA") Marca
+                                         
+                                        label(for="LOGO") Logotipo
+                                         
+                                        label(for="SEO") SEO
+                                    .row.portafolio-container
+                                        .col-lg-4.col-md-6.portafolio-item(data-category="WEB MARCA")
+                                            a(href="../assets/img/gallery/maqueta1.jpg")       
+                                                figure
+                                                    .img-box
+                                                            img(src="../assets/img/trabajo1.png", alt="img-project1",)
+                                                            .img-box__hover
+                                                                .img-box__content
+                                                                    i.fa.fa-link
+                                                                    i.fa.fa-search
+                                                figcaption
+                                                            p Sitio web y marca                
+                                        .col-lg-4.col-md-6.portafolio-item(data-category="WEB SEO")
+                                            a(href="../assets/img/gallery/maqueta2.jpg")       
+                                                    figure
+                                                        .img-box
+                                                            img(src="../assets/img/trabajo2.png", alt="img-project2",)
+                                                            .img-box__hover
+                                                                .img-box__content
+                                                                    i.fa.fa-link
+                                                                    i.fa.fa-search
+                                                    figcaption
+                                                        p Sitio web y SEO
+                                        .col-lg-4.col-md-6.portafolio-item(data-category="WEB MARCA")
+                                            a(href="../assets/img/gallery/maqueta3.jpg")       
+                                                    figure
+                                                        .img-box
+                                                            img(src="../assets/img/trabajo3.png", alt="img-project3",)
+                                                            .img-box__hover
+                                                                .img-box__content
+                                                                    i.fa.fa-link
+                                                                    i.fa.fa-search
+                                                    figcaption
+                                                        p Sitio web y Marca    
+                                        .col-lg-4.col-md-6.portafolio-item(data-category="WEB LOGO")
+                                            a(href="../assets/img/gallery/maqueta4.png")       
+                                                    figure
+                                                        .img-box
+                                                            img(src="../assets/img/trabajo4.png", alt="img-project4",)
+                                                            .img-box__hover
+                                                                .img-box__content
+                                                                    i.fa.fa-link
+                                                                    i.fa.fa-search
+                                                    figcaption
+                                                        p Sitio web y logotipo
+                                        .col-lg-4.col-md-6.portafolio-item(data-category="WEB SEO")
+                                            a(href="../assets/img/gallery/maqueta5.png")       
+                                                    figure
+                                                        .img-box
+                                                            img(src="../assets/img/trabajo5.png", alt="img-project5",)
+                                                            .img-box__hover
+                                                                .img-box__content
+                                                                    i.fa.fa-link
+                                                                    i.fa.fa-search.
+                                                    figcaption
+                                                        p Sitio web y SEO    
+                                        .col-lg-4.col-md-6.portafolio-item(data-category="WEB LOGO")
+                                            a(href="../assets/img/gallery/maqueta6.jpg")       
+                                                    figure
+                                                        .img-box
+                                                            img(src="../assets/img/trabajo6.png", alt="img-project6",)
+                                                            .img-box__hover
+                                                                .img-box__content
+                                                                    i.fa.fa-link
+                                                                    i.fa.fa-search
+                                                    figcaption
+                                                        p Sitio web y logotipo                
+            section.sale-area.space-medium.parallax
+                .container
+                    .row  
+                        .col-md-12  
+                            .sale-content
+                                span.sub-title cuéntanos los detalles de tu proyecto 
+                                h2 ¿Tienes un nuevo proyecto? Envíame un mensaje    
+                                    a(href="mailto:info@codewep.com") info@codewep.com
+                    .onda 
+            section.pircing-area.space-medium#planes
+                .container  
+                    span.sub-title Te ayudamos 
+                    h2 Precio de planes para todos  
+                    .row
+                        .col-lg-4.col-md-6.pircing-line
+                            .pircing-content
+                                .pircing-content-top
+                                    h5 Plan básico
+                                    p Para los que necesitan una web para dar a conocer de forma rápida y sencilla un servicio, producto o poner un punto de suscripción.
+                                .pircing-content-center
+                                    span €150
+                                .pircing-content-bottom
+                                    ul
+                                        li
+                                            i.fa.fa-check  
+                                            span Dominio y hosting(Anual).
+                                        li
+                                            i.fa.fa-check  
+                                            span Slider o banner principal.
+                                        li
+                                            i.fa.fa-check  
+                                            span Cinco secciones.
+                                        li
+                                            i.fa.fa-check  
+                                            span Google maps.
+                                        li
+                                            i.fa.fa-check  
+                                            span Formulario de contacto.
+                                        li
+                                            i.fa.fa-check  
+                                            span Diseño responsivo.
+                                        li
+                                            i.fa.fa-check  
+                                            span SEO básico.
+                                .pircing-content-footer
+                                    a(href="#contacto").button Contratar ya!!       
+                        .col-lg-4.col-md-6.pircing-line
+                            .pircing-content
+                                .pircing-content-top
+                                    h5 Plan corporativo
+                                    p ¿Tienes un pequeño comercio? Este es tu plan. Pensado para dar a conocerte y ofrecer un punto de contacto a tus clientes.
+                                .pircing-content-center
+                                    span €250
+                                .pircing-content-bottom
+                                    ul
+                                        li
+                                            i.fa.fa-check  
+                                            span Dominio y hosting(Anual).
+                                        li
+                                            i.fa.fa-check  
+                                            span Correo corporativo.
+                                        li
+                                            i.fa.fa-check  
+                                            span Slider o banner principal. 
+                                        li
+                                            i.fa.fa-check  
+                                            span Cinco páginas.
+                                        li
+                                            i.fa.fa-check  
+                                            span Google maps.
+                                        li
+                                            i.fa.fa-check  
+                                            span Formulario de contacto.
+                                        li
+                                            i.fa.fa-check  
+                                            span Diseño responsivo.
+                                        li
+                                            i.fa.fa-check  
+                                            span SEO básico
+                                .pircing-content-footer
+                                    a(href="#contacto").button Contratar ya!!   
+                        .col-lg-4.col-md-12.pircing-line
+                            .pircing-content
+                                .pircing-content-top
+                                    h5 Plan tienda online
+                                    p El Plan para los que quieren empezar a vender en internet desde su propia tienda on line. Diseño a la última y control absoluto.
+                                .pircing-content-center
+                                    span €350
+                                .pircing-content-bottom
+                                    ul
+                                        li
+                                            i.fa.fa-check  
+                                            span Plantilla administrable.
+                                        li
+                                            i.fa.fa-check  
+                                            span Dominio y hosting(Anual).
+                                        li
+                                            i.fa.fa-check  
+                                            span Correos corporativo.
+                                        li
+                                            i.fa.fa-check  
+                                            span Categorias y productos. 
+                                        li
+                                            i.fa.fa-check  
+                                            span Plataforma de cobro.
+                                        li
+                                            i.fa.fa-check  
+                                            span Google maps.
+                                        li
+                                            i.fa.fa-check  
+                                            span Formulario de contacto.
+                                        li
+                                            i.fa.fa-check  
+                                            span Diseño responsivo.
+                                        li
+                                            i.fa.fa-check  
+                                            span SEO básico
+                                .pircing-content-footer
+                                    a(href="#contacto").button Contratar ya!!
+            section.contact-area.space-medium#contacto
+                .container
+                    span.sub-title Hablemos 
+                    h2 Contáctanos
+                    .row
+                        .col-md-5
+                            .contact-info-title
+                                h3 Datos de contacto:
+                                p Complete el siguiente formulario para enviarnos un correo electrónico y nos pondremos en contacto con usted lo antes posible.
+                            .contact-form 
+                                form(action="send.php" method="post")
+                                    .row
+                                        .col-md-12  
+                                            .form-group
+                                                input(type="text" name="name" id="name" placeholder="Nombre" required="" title="Nombre").form-control
+                                    
+                                        .col-md-12   
+                                            .form-group
+                                                input(type="email" name="email" id="email" placeholder="Email" required="" title="Email").form-control  
+                                        .col-md-12  
+                                            .form-group
+                                                input(type="text" name="subject" id="subject" placeholder="Asunto" required="" title="Asunto").form-control   
+                                        .col-md-12
+                                            .form-group 
+                                            textarea(name="message" id="message" placeholder="Mensaje" rows="10" cols="30").form-control
+                                        .col-md-12
+                                            button(type="submit" title="Enviar mensaje").button Enviar mensaje        
+                        .col-md-7
+                            .contact-img
+        footer.footer-area
+            .container
+                .footer-area-top
+                        .row
+                            .col-md-6
+                                .footer-area-sociales
+                                    a(href="https://www.facebook.com/codewepdesarrolloweb").fa.fa-facebook
+                                    a(href="tel:+34630987630").fa.fa-whatsapp
+                                    a(href="http://www.instagram.com").fa.fa-instagram
+                            .col-md-6
+                                .footer-area-designed
+                                    p Hecho con
+                                        .fa.fa-heart
+                                    p Codewep-2020
+        script(src="js/scripts-min.js")
+        
