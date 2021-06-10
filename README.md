@@ -44,7 +44,7 @@ Sitio: https://codewep.com
 
 ### Este sitio fue realizado por:
 
-    Wiliespe | Wilian Peña
+    * Wiliespe | Wilian Peña
 
 ## Agradecimientos 🎁
 
